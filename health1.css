@@ -1,0 +1,246 @@
+/* Navbar Start */
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+img, .container, .container-fluid, .row, .col {
+    max-width: 100%;
+    width: 100%;
+}
+.top
+{
+    background-color: #d8faf6;
+    width: auto;
+    height: 600px;
+    
+}
+
+.navbar-custom {
+    background-color: #d8faf6; 
+}
+
+.navbar-toggler-icon {
+    background-color: black; 
+}
+
+.navbar-nav li {
+    margin-left: 10px;
+}
+
+.navbar-icons img {
+    margin-left: 10px;
+    width: 20px;
+}
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+     color: black; 
+}
+
+@media (max-width: 991px) {
+    .navbar-nav.ms-auto {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+
+    .navbar-nav.ms-auto .nav-item {
+        margin-bottom: 10px; 
+    }
+}
+
+.navbar-brand img 
+{
+    height: 40px;
+}
+
+
+/* Navbar End */
+
+/* Title Start */
+
+.title 
+{
+    text-align: center;
+    padding: 100px 20px;
+   
+}
+
+.title h1 
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.p1
+{
+    font-size: 35px;
+    text-align: justify;
+}
+
+.title p2 
+{
+    font-size: 1.2rem;
+    color: #555;
+}
+
+@media (max-width: 425px) {
+    .p1 {
+        font-size: 24px;         
+    }
+}
+
+/* Title End */
+
+/* images Start */
+.row1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.food {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.p3
+{
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+/* Amazing Blog Start */
+
+.card-img-top {
+    width: 100%; 
+    display: block; 
+}
+
+.full-height {
+    height: 340px; 
+}
+
+.short-height {
+    height: 280px; 
+}
+.card-body{
+    text-align: left;
+}
+.card-btn{
+    text-align: left;
+}
+
+/* Amazing Blog End */
+
+/* Nutrition Start */
+
+.nutri {
+    background-image: url('./health_images/img-11.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+}
+
+/* Nutrition End */
+
+
+/* BMI Start */
+
+.form-label {
+    font-weight: bold;
+    font-size: 14px; 
+}
+
+.form-control {
+    font-size: 16px;
+    padding: 10px;
+}
+
+select.form-select {
+    font-size: 16px;
+    padding: 10px;
+}
+
+ .calculate-btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.calculate-btn:hover {
+    background-color: #333;
+}
+
+.bmi-table th, .bmi-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.bmi-table th {
+    text-align: left;
+    background-color: #f4f4f4;
+}
+
+/* BMI End */
+
+/* Stay in Touch Start */
+.stay{
+    width: 100%; 
+    background-color: black;
+    height: 170px;
+    overflow: hidden; 
+}
+@media (max-width: 576px) {
+    .stay {
+        min-height: 450px; 
+    }
+}
+
+/* Stay in Touch End */
+
+
+.p2{
+    font-size: 26px; 
+    color: black; 
+    font-weight: 400;
+}
+
+/* Footer Start */
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.footnav ul {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footnav li {
+    margin: 0 10px; 
+}
+
+.copyright {
+    flex: 1; 
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.social img {
+    margin-left: 5px; 
+}
+
+/* Footer End */
