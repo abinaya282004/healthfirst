@@ -235,12 +235,11 @@
 
 <!-- BMI Start-->
 
-        <div class="container mt-5 mb-5">
+       <div class="container mt-5 mb-5">
             <div class="row mx-md-5">
                 <div class="col-lg-5 col-md-12 mx-5">
                     <h2>Calculate Your BMI</h2>
                     <p>BMI calculator generates the number of calories your body<br>burns per day at rest. Your BMR with activity factor is the<br>number of calories your body burns per day based on the<br>activity factor you selected.</p>
-                    <form>
                         <div class="row g-1 mb-3">
                             <div class="col-md-6">
                                 <label for="height" class="form-label">Height (cm)*</label>
@@ -275,8 +274,15 @@
                                 <option value="5">Very hard exercise/physical job</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-lg btn-dark text-white" style="border-radius: 0;">Calculate</button>
-                    </form>
+                        <div class="row g-1 align-items-center">
+                            <div class="col-auto">
+                                <button type="button" id="calculateBtn" class="btn btn-lg btn-dark text-white" style="border-radius: 0;">Calculate</button>
+                            </div>
+                            <div class="col-auto">
+                                <label for="bmiResult" class="form-label">Your BMI:</label>
+                                <input type="text" id="bmiResult" class="form-control" style="width: 120px;" readonly>
+                            </div>
+                        </div>
                 </div>
 
                 <div class="col-lg-5 col-md-12 mt-5 mt-lg-0">
@@ -311,6 +317,7 @@
                 </div>
             </div>
         </div>
+
 
 <!-- BMI End-->
 
@@ -384,6 +391,10 @@
 
 
 <!-- Footer End -->
+
+        <script src="script.js">
+        </script>
+
 
     </body>
 </html>
